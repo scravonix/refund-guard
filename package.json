@@ -1,0 +1,18 @@
+{
+  "name": "refund-guard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/starlight watch",
+    "build": "./node_modules/.bin/starlight pack --release",
+    "prepare": "./node_modules/.bin/starlight lsp"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.1",
+    "@types/react-dom": "19.1.1",
+    "@steambrew/starlight": "^1.1.3"
+  },
+  "description": "Monitors recent Steam purchases for meaningful price drops using exact paid-price data and conservative refund-rule checks.",
+  "author": "scravonix",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+[plugin]
+id = "refund.guard"
+name = "Refund Guard"
+version = "1.0.0"
+author = "scravonix"
+description = "Monitors recent Steam purchases for meaningful price drops using exact paid-price data and conservative refund-rule checks."
+
+[backend]
+entry = "backend/main.lua"
+sources = ["backend/**/*.lua"]
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[compiler]
+output_path = "auto"
+
+[dev]
+auto_restart = true
+reload_steamui_when = "both"
+
+[inspect]
+depth = 4
+colors = true
+show_hidden = true
+
+[logger]
+padding = 0
+backend_prefix = "RefundGuard/BCK"
+frontend_prefix = "RefundGuard/FRT"
+webview_prefix = "RefundGuard/WEB"
+
+[patches]
+debug = false

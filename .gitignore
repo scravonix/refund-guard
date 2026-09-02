@@ -1,0 +1,12 @@
+node_modules/
+.millennium/
+dist/
+Backups/
+*.star
+*.log
+*.map
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.millennium/lsp/
