@@ -60,6 +60,25 @@ Purchase, price, configuration, and notification state required by the plugin is
 
 ## Installation
 
+### Manual Installation (GitHub Release)
+
+Until Refund Guard is available in the Millennium Plugin Store, you can install the compiled release manually:
+
+1. Install [Millennium](https://steambrew.app/) **3.4.1 or newer**.
+2. Fully exit Steam.
+3. Download `refund.guard.star` from the [latest GitHub Release](https://github.com/scravonix/refund-guard/releases/latest).
+4. Copy `refund.guard.star` into your Steam installation's `millennium/plugins/` directory.
+5. Start Steam.
+6. Open Millennium's plugin interface and confirm that **Refund Guard** is listed.
+
+For example, if Steam is installed at `C:\Program Files (x86)\Steam`, the resulting path is:
+
+```text
+C:\Program Files (x86)\Steam\millennium\plugins\refund.guard.star
+```
+
+Do not extract the `.star` file. If you are updating an existing manual installation, fully exit Steam first and replace the existing `refund.guard.star` file.
+
 ### Millennium Plugin Store
 
 Once Refund Guard is listed in the official Millennium Plugin Store, install it directly from Millennium's plugin interface.
