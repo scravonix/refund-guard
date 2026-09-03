@@ -1,5 +1,7 @@
 # Refund Guard
 
+<img width="662" height="593" alt="RG preview" src="https://github.com/user-attachments/assets/b00347d7-f814-42ba-bc6b-ecab79f57ecc" />
+
 **Refund Guard** is a Millennium plugin for Steam that monitors recent purchases for meaningful price drops and helps you evaluate them against configurable refund-rule thresholds.
 
 It compares what you actually paid with the current Steam Store price whenever reliable purchase data is available, while keeping price-drop detection separate from refund-rule eligibility.
