@@ -68,7 +68,7 @@ Once Refund Guard is listed in the official Millennium Plugin Store, install it 
 
 ### Manual / Testing Installation
 
-Refund Guard is a **Starlight V2 plugin**. Its installable runtime artifact is `refund.guard.star`.
+Refund Guard is a **Millennium plugin built with the Starlight V2 plugin system**. Its installable runtime artifact is `refund.guard.star`.
 
 The automatically generated GitHub **Source code (zip)** and **Source code (tar.gz)** archives are source snapshots and are **not intended for direct plugin installation**.
 
