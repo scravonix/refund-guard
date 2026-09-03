@@ -62,28 +62,34 @@ Purchase, price, configuration, and notification state required by the plugin is
 
 ## Installation
 
-### Manual Installation (GitHub Release)
+### Millennium Plugin Store (Recommended)
 
-Until Refund Guard is available in the Millennium Plugin Store, you can install the compiled release manually:
+Once Refund Guard is listed in the official Millennium Plugin Store, install it directly from Millennium's plugin interface.
+
+### Manual / Testing Installation
+
+Refund Guard is a **Starlight V2 plugin**. Its installable runtime artifact is `refund.guard.star`.
+
+The automatically generated GitHub **Source code (zip)** and **Source code (tar.gz)** archives are source snapshots and are **not intended for direct plugin installation**.
+
+To install the compiled release manually:
 
 1. Install [Millennium](https://steambrew.app/) **3.4.1 or newer**.
 2. Fully exit Steam.
 3. Download `refund.guard.star` from the [latest GitHub Release](https://github.com/scravonix/refund-guard/releases/latest).
-4. Copy `refund.guard.star` into your Steam installation's `millennium/plugins/` directory.
+4. Copy `refund.guard.star` into the `millennium/plugins/` directory inside your Steam installation.
 5. Start Steam.
 6. Open Millennium's plugin interface and confirm that **Refund Guard** is listed.
 
-For example, if Steam is installed at `C:\Program Files (x86)\Steam`, the resulting path is:
+For example, if Steam is installed at `C:\Program Files (x86)\Steam`, the resulting path is typically:
 
 ```text
 C:\Program Files (x86)\Steam\millennium\plugins\refund.guard.star
 ```
 
-Do not extract the `.star` file. If you are updating an existing manual installation, fully exit Steam first and replace the existing `refund.guard.star` file.
+Do **not** extract the `.star` file.
 
-### Millennium Plugin Store
-
-Once Refund Guard is listed in the official Millennium Plugin Store, install it directly from Millennium's plugin interface.
+If you are updating an existing manual installation, fully exit Steam first and replace the existing `refund.guard.star` file.
 
 ### Build from Source
 
@@ -102,7 +108,7 @@ bun run prepare
 bun run build
 ```
 
-The release build uses Starlight's release packaging mode. With `output_path = "auto"`, Starlight detects the local Millennium installation and installs the built plugin automatically.
+The production build uses Starlight's release packaging mode. With `output_path = "auto"`, Starlight detects the local Millennium installation and installs the built plugin automatically.
 
 Restart Steam after installation if required.
 
